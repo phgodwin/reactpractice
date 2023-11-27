@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Title from './Components/Titles';
+import KeyMash from './Components/KeyMash';
+import Learners from './Components/Learners';
+
 
 function App() {
   return (
-    <body>
+    <div>
       <h1>I am React
       </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -18,10 +22,22 @@ function App() {
         <li>I</li>
         <li>am</li>
         <li>React</li>
-        
+
       </ul>
-    </body>
-  );
+
+      <Title /> 
+    
+   <KeyMash />
+
+   <Learners name ="Paige" age="29" job="Trainee Software Engineer" color="Teal" />
+   <Learners name ="Eloise" age="24" job="Claims handler" color="Orange" />
+   <Learners name ="Matthew" age="25" job="Civil servant" color="Black" />
+
+
+      </div>
+      );
 }
 
-export default App;
+ 
+
+      export default App;
