@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Eloise",
+        "age": 24,
+        "hair": "Brown",
+        "home": "Newport"
+    },
+    {
+        "name": "Ethan",
+        "age": 22,
+        "hair": "Brown",
+        "home": "Valleys"
+    },
+    {
+        "name": "Matthew",
+        "age": 24,
+        "hair": "Blonde/Brown",
+        "home": "Valleys"
+    }
+]
