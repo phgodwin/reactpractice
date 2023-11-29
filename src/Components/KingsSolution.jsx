@@ -17,7 +17,7 @@ function KingSolution() {
           />
         );}
         
-    return (
+    return(
         <div>
     
       {kingComponents}

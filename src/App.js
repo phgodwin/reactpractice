@@ -6,6 +6,7 @@ import Learners from './Components/Learners';
 import friends from './Data/friends.json';
 import MyFriend from './Components/MyFriend';
 import KingSolution from './Components/KingsSolution';
+import Buttons from './Components/Buttons'
 
 
 
@@ -59,7 +60,9 @@ function App() {
         {friendComponents}
         <KingSolution/>
 
+
       </div>
+<Buttons/>
 
 
     </div>
