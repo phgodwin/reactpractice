@@ -4,7 +4,7 @@ function King(props) {
     return (
 
         <div>
-            <h2>Kings</h2>
+            <h2>King</h2>
             <p>Name: {props.name}</p>
             <p>Country: {props.country}</p>
             <p>House: {props.house}</p>
