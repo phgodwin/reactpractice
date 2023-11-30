@@ -9,6 +9,7 @@ import KingSolution from './Components/KingsSolution';
 import Buttons from './Components/Buttons'
 import Counter from './Components/Counter';
 import KingSolution2 from './Components/KingsSolution2';
+import PostRequest from './Components/MessageBoard';
 
 
 
@@ -60,8 +61,10 @@ function App() {
 
 <br/>
 <br/>
-<KingSolution2/>
-
+{/* <KingSolution2/> */}
+<br/>
+<br/>
+<PostRequest/>
     </div>
   );
 }
