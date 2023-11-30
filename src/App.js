@@ -8,53 +8,59 @@ import MyFriend from './Components/MyFriend';
 import KingSolution from './Components/KingsSolution';
 import Buttons from './Components/Buttons'
 import Counter from './Components/Counter';
+import KingSolution2 from './Components/KingsSolution2';
 
 
 
 function App() {
-  // Log friends json component to the console
-  console.log("Friends:", friends);
+  // // Log friends json component to the console
+  // console.log("Friends:", friends);
 
-  const friendComponents = [];
-  // loop through your array (from json) and print each one to the console
-  for (const friend of friends) {
-    console.log(friend)
-    // convert the data into components
-    friendComponents.push(
-      <MyFriend name={friend.name} age={friend.age} hair={friend.hair} home={friend.home} />
-    );}
+  // const friendComponents = [];
+  // // loop through your array (from json) and print each one to the console
+  // for (const friend of friends) {
+  //   console.log(friend)
+  //   // convert the data into components
+  //   friendComponents.push(
+  //     <MyFriend name={friend.name} age={friend.age} hair={friend.hair} home={friend.home} />
+  //   );}
 
   
 
-  console.log("components:", friendComponents)
+  // console.log("components:", friendComponents)
   return (
     <div>
 
      
 
-      <Title />
+  {/* //     <Title />
 
-      <KeyMash />
+  //     <KeyMash />
 
-      <Learners name="Paige" age="29" job="Trainee Software Engineer" color="Teal" />
-      <Learners name="Eloise" age="24" job="Claims handler" color="Orange" />
-      <Learners name="Matthew" age="25" job="Civil servant" color="Black" />
+  //     <Learners name="Paige" age="29" job="Trainee Software Engineer" color="Teal" />
+  //     <Learners name="Eloise" age="24" job="Claims handler" color="Orange" />
+  //     <Learners name="Matthew" age="25" job="Civil servant" color="Black" />
 
-      <MyFriend name="Elliot" age={25} hair="God knows" home="Newport" />
+  //     <MyFriend name="Elliot" age={25} hair="God knows" home="Newport" /> */}
 
-      <div>
-        {friendComponents}
-        <KingSolution/>
+       <div>
+  {/* //       {friendComponents} */}
+        {/* commented below out to tidy up page for kingsSolution2 */}
+        {/* <KingSolution/>  */}
 
 
-      </div>
-<Buttons/>
+     </div>
+{/* <Buttons/> */}
 
 <br/>
 <br/>
 
-<Counter/>
+{/* <Counter/> */}
 
+
+<br/>
+<br/>
+<KingSolution2/>
 
     </div>
   );

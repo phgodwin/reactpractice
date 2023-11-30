@@ -1,3 +1,5 @@
+// not currently being imported into app due to KingsSolution2
+
 import kings from '../Data/kings.json';
 import King from './King';
 import { useState } from 'react';

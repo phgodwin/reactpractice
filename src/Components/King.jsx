@@ -4,10 +4,10 @@ function King(props) {
     return (
 
         <div>
-            <h2>King</h2>
+            <h2>Monarch</h2>
             <p>Name: {props.name}</p>
-            <p>Country: {props.country}</p>
-            <p>House: {props.house}</p>
+            {/* <p>Country: {props.country}</p>
+            <p>House: {props.house}</p> */}
             <p>Years: {props.years}</p>
         </div>
     );
